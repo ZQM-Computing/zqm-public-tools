@@ -19,5 +19,5 @@ jobs:
           if ($files) {
             Invoke-ScriptAnalyzer -Path $files -Severity Error | Format-Table -AutoSize
           } else {
-            Write-Host "No PowerShell files found."
+            Write-Host 'No PowerShell files found.'
           }
