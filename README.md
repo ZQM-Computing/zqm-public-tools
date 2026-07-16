@@ -1,14 +1,24 @@
-# ZQM Public Tools
+# ZQM-Computing public tools
 
-Curated, reviewed PowerShell utilities for endpoint visibility and baseline integrity reporting.
+[![Sponsor ZQM-Computing](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=githubsponsors&link=https://github.com/sponsors/ZQM-Computing)](https://github.com/sponsors/ZQM-Computing)
 
-Files
-- `scripts/Get-SystemReport.ps1` — generic endpoint snapshot
-- `scripts/Invoke-AttestationBaseline.ps1` — lightweight control checks
-- `docs/ControlMapping.md` — maps outputs to CIS/Windows control concepts
-- `INTEGRATION.md` — deployment notes for SOC/MSP review
+Sanitized PowerShell helpers for Windows attestation. These scripts are the public surface of the ZQM attestation kit: no private paths, no secrets, no operational backdoors.
 
-Guidelines
-- No secrets, keys, or user-data collection.
-- No org-specific paths or host references.
-- Use in isolated test endpoints first.
+## Usage
+
+PowerShell 5.1+ on Windows 10/11. Defaults are repo-root-relative. Review before changing execution policy.
+
+## Contact
+
+ZQM Computing — zqmcomputing@gmail.com
+
+## Related ZQM repos
+
+- **[zqm-attestation-toolkit](https://github.com/ZQM-Labs/zqm-attestation-toolkit)** — the forensic PowerShell suite these helpers belong to. Checksummed, CMS-signed machine-health reports for auditors, MSPs, and compliance teams.
+- **[zqm-attestation-briefs](https://github.com/ZQM-Labs/zqm-attestation-briefs)** — buyer-facing methodology and sample outputs.
+- **[zqm-security-policy](https://github.com/ZQM-Labs/zqm-security-policy)** — baseline Windows endpoint posture rules.
+- **[zqm-shield](https://github.com/ZQM-Labs/zqm-shield)** — lightweight Windows endpoint security helpers.
+
+## Support
+
+Development is funded commercially — see the toolkit's [FUNDING](https://github.com/ZQM-Labs/zqm-attestation-toolkit/blob/main/.github/FUNDING.yml) for sponsorship, procurement, and no-KYC options. You can also [sponsor ZQM-Computing on GitHub](https://github.com/sponsors/ZQM-Computing).

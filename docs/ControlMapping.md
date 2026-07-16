@@ -13,4 +13,4 @@ Fields
 Notes
 - No secrets, tokens, or user profile paths.
 - No outbound transport; outputs are plain JSON.
-- This is a sample file. Real collection logic lives in `ZQM-Computing/zqm-attestation-toolkit`.
+- This is a sample file. Real collection logic lives in `ZQM-Labs/zqm-attestation-toolkit`.
